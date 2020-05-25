@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "433376440498",
+    "firebase_url": "https://automobile-df88f.firebaseio.com",
+    "project_id": "automobile-df88f",
+    "storage_bucket": "automobile-df88f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433376440498:android:b8ff68cc36b8c47b",
+        "android_client_info": {
+          "package_name": "com.example.vimlendra.automobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433376440498-d9k9drtr6eioti1esfrrekm2c8cpkjmd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vimlendra.automobile",
+            "certificate_hash": "6455a5c496b388f73472a7605789b4b9bbf8b842"
+          }
+        },
+        {
+          "client_id": "433376440498-se7atlcsdrmc6dfqh8n308690n9vutke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeOjM-79CtodkxsL8SeGjibjgiBz83yGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433376440498-se7atlcsdrmc6dfqh8n308690n9vutke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

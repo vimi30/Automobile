@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginback"
+    tools:context=".SignupActivity">
+
+    <EditText
+        android:id="@+id/SignPage_name_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:hint="Name"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/SignPage_login_id_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SignPage_name_input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:hint="phone number"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Signpage_login_pass_input"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SignPage_login_id_input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:hint="Enter Password"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Signpage_login_pass2_input"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Signpage_login_pass_input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Confirm Password"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+
+
+    <Button
+        android:id="@+id/sign_up_btn"
+        android:layout_width="377dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:padding="20dp"
+        android:text="Create Account"
+        android:textColor="#CCCC00"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
